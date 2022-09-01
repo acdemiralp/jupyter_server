@@ -4,6 +4,7 @@ mkdir ../server
 cd ../server
 
 #   Install Jupyter.
+python3 -m pip install --upgrade pip
 pip3 install --upgrade pip
 pip3 install --upgrade jupyter jupyterlab voila
 
